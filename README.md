@@ -14,13 +14,13 @@ The test ensures **registration, login, product selection, checkout process, shi
 
 1. **User Registration & Login**
 
-   - Register a new user account (data-driven).
+   - Register a new user account.
    - Log in with registered credentials.
 
 2. **Product Selection & Cart Addition**
 
    - Navigate to product catalog.
-   - Select product (parameterized for multiple products).
+   - Select product.
    - Add product to cart.
 
 3. **Checkout Process**
@@ -33,7 +33,7 @@ The test ensures **registration, login, product selection, checkout process, shi
 
 5. **Order Completion**
    - Submit order.
-   - Verify confirmation page/message is displayed.
+   - Verify confirmation message is displayed.
 
 ---
 
@@ -89,7 +89,7 @@ The test ensures **registration, login, product selection, checkout process, shi
    - From IntelliJ → Run `TestNG`.
 
 5. **View Reports**
-   - **Console Report**: displayed in IntelliJ terminal
+   - **Console Report**: displayed in IntelliJ console.
 
 ---
 
