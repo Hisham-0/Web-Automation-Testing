@@ -95,6 +95,6 @@ The test ensures **registration, login, product selection, checkout process, shi
 
 ## 🎥 Demo Video (Test Script)
 
-https://github.com/user-attachments/assets/b9e66b60-cefa-46be-99ae-812f247379a1
+https://github.com/user-attachments/assets/7804642b-cc7d-41e3-954f-52599b4cd500
 
 ---

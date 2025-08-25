@@ -3,13 +3,11 @@ package Pages.Home;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
-
 import static Utilities.Selenium.DriverFactory.driver;
 
-public class AddToCart {
 
+public class AddToCart {
     public static void AddToCart() throws InterruptedException {
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

@@ -1,5 +1,7 @@
 package Pages.Registeration;
 
+import org.testng.annotations.AfterClass;
+
 public class RegisterationTest {
 
     final Registeration registeration = new Registeration();
@@ -8,4 +10,6 @@ public class RegisterationTest {
     public void RegisterWithUser() throws InterruptedException {
         registeration.RegisterWithValidUser();
     }
+
+
 }
