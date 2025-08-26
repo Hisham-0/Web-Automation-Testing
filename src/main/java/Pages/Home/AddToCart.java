@@ -15,7 +15,9 @@ public class AddToCart {
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/app-root/app-header/nav/div/div/ul/li[1]"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/app-root/div/app-overview/div[3]/div[2]/div[1]/a[1]"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/app-root/div/app-detail/div[1]/div[2]/div[2]/button[1]"))).click();
+        // click on the notification 
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div/div/div/div[1]"))).click();
+        // then click on the cart icon 
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/app-root/app-header/nav/div/div/ul/li[5]"))).click();
 
 
